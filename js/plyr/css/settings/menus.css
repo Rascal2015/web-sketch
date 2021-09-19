@@ -1,0 +1,62 @@
+/*
+Error: Undefined variable: "$plyr-color-gray-700".
+        on line 7 of D:\study document\MY WEBS\New folder\web_sketch_inbrowser\js\plyr\sass\settings\menus.scss
+
+2: // Menus
+3: // ==========================================================================
+4: 
+5: $plyr-menu-background: var(--plyr-menu-background, rgba(#fff, 0.9)) !default;
+6: $plyr-menu-radius: var(--plyr-menu-radius, 4px) !default;
+7: $plyr-menu-color: var(--plyr-menu-color, $plyr-color-gray-700) !default;
+8: $plyr-menu-shadow: var(--plyr-menu-shadow, 0 1px 2px rgba(#000, 0.15)) !default;
+9: $plyr-menu-arrow-size: var(--plyr-menu-arrow-size, 4px) !default;
+10: 
+11: $plyr-menu-item-arrow-size: var(--plyr-menu-item-arrow-size, 4px) !default;
+12: $plyr-menu-item-arrow-color: var(--plyr-menu-arrow-color, $plyr-color-gray-500) !default;
+
+Backtrace:
+D:\study document\MY WEBS\New folder\web_sketch_inbrowser\js\plyr\sass\settings\menus.scss:7
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:186:in `perform_arg'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `block in _perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$plyr-color-gray-700\".\A         on line 7 of D:\study document\MY WEBS\New folder\web_sketch_inbrowser\js\plyr\sass\settings\menus.scss\A \A 2: // Menus\A 3: // ==========================================================================\A 4: \A 5: $plyr-menu-background: var(--plyr-menu-background, rgba(#fff, 0.9)) !default;\A 6: $plyr-menu-radius: var(--plyr-menu-radius, 4px) !default;\A 7: $plyr-menu-color: var(--plyr-menu-color, $plyr-color-gray-700) !default;\A 8: $plyr-menu-shadow: var(--plyr-menu-shadow, 0 1px 2px rgba(#000, 0.15)) !default;\A 9: $plyr-menu-arrow-size: var(--plyr-menu-arrow-size, 4px) !default;\A 10: \A 11: $plyr-menu-item-arrow-size: var(--plyr-menu-item-arrow-size, 4px) !default;\A 12: $plyr-menu-item-arrow-color: var(--plyr-menu-arrow-color, $plyr-color-gray-500) !default;"; }

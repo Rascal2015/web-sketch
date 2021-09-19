@@ -1,0 +1,62 @@
+/*
+Error: Undefined variable: "$plyr-color-gray-700".
+        on line 6 of D:\study document\MY WEBS\New folder\web_sketch_inbrowser\js\plyr\sass\settings\tooltips.scss
+
+1: // ==========================================================================
+2: // Tooltips
+3: // ==========================================================================
+4: 
+5: $plyr-tooltip-background: var(--plyr-tooltip-background, rgba(#fff, 0.9)) !default;
+6: $plyr-tooltip-color: var(--plyr-tooltip-color, $plyr-color-gray-700) !default;
+7: $plyr-tooltip-padding: calc(#{$plyr-control-spacing} / 2);
+8: $plyr-tooltip-padding: var(--plyr-tooltip-padding, $plyr-tooltip-padding) !default;
+9: $plyr-tooltip-arrow-size: var(--plyr-tooltip-arrow-size, 4px) !default;
+10: $plyr-tooltip-radius: var(--plyr-tooltip-radius, 3px) !default;
+11: $plyr-tooltip-shadow: var(--plyr-tooltip-shadow, 0 1px 2px rgba(0, 0, 0, 0.15)) !default;
+
+Backtrace:
+D:\study document\MY WEBS\New folder\web_sketch_inbrowser\js\plyr\sass\settings\tooltips.scss:6
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:186:in `perform_arg'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `block in _perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$plyr-color-gray-700\".\A         on line 6 of D:\study document\MY WEBS\New folder\web_sketch_inbrowser\js\plyr\sass\settings\tooltips.scss\A \A 1: // ==========================================================================\A 2: // Tooltips\A 3: // ==========================================================================\A 4: \A 5: $plyr-tooltip-background: var(--plyr-tooltip-background, rgba(#fff, 0.9)) !default;\A 6: $plyr-tooltip-color: var(--plyr-tooltip-color, $plyr-color-gray-700) !default;\A 7: $plyr-tooltip-padding: calc(#{$plyr-control-spacing} / 2);\A 8: $plyr-tooltip-padding: var(--plyr-tooltip-padding, $plyr-tooltip-padding) !default;\A 9: $plyr-tooltip-arrow-size: var(--plyr-tooltip-arrow-size, 4px) !default;\A 10: $plyr-tooltip-radius: var(--plyr-tooltip-radius, 3px) !default;\A 11: $plyr-tooltip-shadow: var(--plyr-tooltip-shadow, 0 1px 2px rgba(0, 0, 0, 0.15)) !default;"; }
